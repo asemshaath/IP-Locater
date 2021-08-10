@@ -44,6 +44,6 @@ async function loadAPI(){
     document.getElementById("ipAddress").innerHTML = ip;
     document.getElementById("location").innerHTML = placeName;
     document.getElementById("flag").src = "https://www.countryflags.io/" + countryCode +"/flat/64.png";
-    document.getElementById("map").src = googleMap1 + placeName + googleMap2;
+    document.getElementById("map").src = googleMap1 + lat + " " + long + googleMap2;
 
 }
